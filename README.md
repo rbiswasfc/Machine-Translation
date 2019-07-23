@@ -42,17 +42,39 @@ LSTMs. Encoder-Decoder network with attention mechanism can help in capturing lo
 
 
 ### LSTM Encoder-Decoder with Attention
-tbc
+
+- Global Attention Model (Luong, et al. 2015)
+
+#### Remarks
+* Needs better handling of <UNK> tokens generated during translation
+* Cannot use full GPU acceleration due to auto-regressive nature
 
 ### [Sub-word modelling with character level CNN](https://github.com/rbiswasfc/Machine-Translation/blob/master/sub-word/Machine-Translation-Char-Based.ipynb)
-tbc
+Hybrid model. Better UNK handling.
+
+#### Remarks
+* Computationally expensive
 
 ### [The Transformer model](https://github.com/rbiswasfc/Machine-Translation/blob/master/the-transformer/TheTransformer.ipynb)
 tbc
 
-## Training
+#### Remarks
+* It can utilize full GPU acceleration
+
+### Training
+#### Dataset
+The tarin, dev and test dataset are located here. It contains the follwing files
+
+#### Initialization and Optimization
+Uniform initialization. Adam optimizer. The model is trained in GPU in google colab.
 
 ## Evaluation
+BLEU is used to evaluate the model performance. The following scores are achieved
+* LSTM
+* Attn
+* Sub-word 
+* Transformer: Needs to train
+
 
 ## To-do list
 * Train the transformer

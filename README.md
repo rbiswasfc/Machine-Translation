@@ -41,7 +41,7 @@ the next layer.
 LSTMs. Encoder-Decoder network with attention mechanism can help in capturing long term dependency.
 
 
-### LSTM Encoder-Decoder with Attention
+### [LSTM Encoder-Decoder with Attention](https://github.com/rbiswasfc/Machine-Translation/blob/master/LSTM-with-attention/Encoder_Decoder_w_Attention.ipynb)
 
 - Global Attention Model (Luong, et al. 2015)
 

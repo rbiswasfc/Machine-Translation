@@ -7,7 +7,7 @@ tags:
 
 
 ## Neural Machine Translation (NMT) 
-#### -- Project Status: Active
+#### -- Project Status: Refactor
 
 In this project, I aim at building different sequence to sequence machine learning models for Spanish to English translation task using PyTorch. The Sequence to sequence or "Seq2Seq"  is an end-to-end model comprising of two recurrent neural networks:
 * An Encoder: takes sentences in the source language as input and encodes them into finite dimensional context vectors;

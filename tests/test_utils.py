@@ -1,8 +1,10 @@
-import os
 import sys
+from pathlib import Path
 
-# sys.path.insert(0, "./")
-from .utils.data_processor import pad_sents
+
+root_dir = str(Path(__file__).parent.parent.absolute())
+sys.path.insert(0, root_dir)
+from utils.data_processor import pad_sents
 
 
 def test_pad_sents():
